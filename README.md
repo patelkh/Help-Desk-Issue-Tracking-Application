@@ -1,8 +1,21 @@
-# IssueTracker
+# Help Desk Issue Tracking Application
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
+## Background
+
+<img width="1246" alt="Screen Shot 2022-09-26 at 3 43 40 PM" src="https://user-images.githubusercontent.com/76967126/192397027-dba2b0f8-09a9-4715-8d4f-f53e2526292a.png">
+
+<img width="1248" alt="Screen Shot 2022-09-26 at 3 44 00 PM" src="https://user-images.githubusercontent.com/76967126/192397061-ed6d0cc8-bd7c-4336-95ce-8878c72d40cb.png">
+
+The Help Desk Issue Tracking Application allows users to track and manage issues. The application is broken up in 3 parts:
+1. Displaying an overview of issues - fetch pending issues using Angular service and display issues in data grid using Clarity Design System.
+2. Creation of new issues - add new issues using reactive form and Angular services.
+3. Marking an issue as resolved - resolve existing issues directly from the landing page.
+
 ## Development server
+
+Run `npm install` to download dependencies defined in the .json file and generate a node_module folder with the installed modules.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
